@@ -149,6 +149,11 @@ body {
     transition: 0.3s;
 }
 
+.hero .orang img{
+    width: 100%;
+    margin-left: 150px;
+}
+
 /* About */
 .about, .menu, .contact {
     padding: 8rem 7% 1.4rem;
@@ -297,6 +302,15 @@ footer .credit p a {
     html {
         font-size: 75%;
     }
+    .hero .orang img{
+        width: 100%;
+        margin-left: 100px;
+    }
+    .about .row .about-img img {
+        align-items: center;
+        width: 90%;
+        border-radius: 0.5rem;
+    }
 }
 
 /* Tab */
@@ -304,9 +318,18 @@ footer .credit p a {
     html {
         font-size: 62.5%;
     }   
+    .hero .orang img{
+        width: 100%;
+        margin-left: 0;
+    }
 
-    .about .row {
+    /* .about .row {
          flex-wrap: wrap;
+    } */
+
+    .about .row .about-img img {
+        width: 90%;
+        border-radius: 0.5rem;
     }
 
     .menu p {
@@ -324,12 +347,22 @@ footer .credit p a {
     html {
         font-size: 45%;
     }
+
+    .hero .orang img{
+        width: 100%;
+        margin-left: 0;
+    }
+    
 }
 
 /* Phone 320 */
 @media(max-width: 320px) {
     html {
         font-size: 35%;
+    }
+    .hero .orang img{
+        width: 100%;
+        margin-left: 0;
     }
 }
 
